@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <!-- Make browser mobile renderizable -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap 5 styles -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.5.0/font/bootstrap-icons.min.css">
+    <!-- My own styles file -->
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title> Portfolio </title>
+  </head>
+  <body>
+    <!-- MY HEADER CONTENT -->
+    <header class="header">
+
+      <div class="container-fluid">
+        <video autoplay muted loop id="headerVideo">
+          <source src="./images/header-video.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="top-nav-menu" id="navigationBar">
+        <div class="container">
+          <nav class="navbar navbar-expand-lg">
+            <img src="./images/logo-example.svg" width="50" height="50">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarText">
+              <ul class="navbar-nav mb-2 mb-lg-0 text-start">
+                <li class="nav-item">
+                  <a class="nav-link" href="#projects"> Projects </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"> Contact </a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <div class="headline">
+        <div class="container">
+          <div class="row me-5 ms-5">
+            <div class="col-6 mx-auto my-5 text-end">
+              <h1> Web developer freelance </h1>
+              <h5> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam non nobis nesciunt, ea sint, sit dignissimos maiores quisquam soluta ex nihil sapiente officia quia eum adipisci. Aliquid nostrum hic soluta. </h5>
+              <a class="btn btn-primary mt-2" id="hello" href="mailto:example@email.com?subject=Email%20Subject" role="button"> Contactar </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- MY MAIN CONTENT -->
+    <main>
+
+      <div class="separator py-4"></div>
+      
+      <section class="skills mt-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 text-center">
+              <img src="./images/programming_languages.svg" alt="programming_languages" width="150" height="150">
+              <h4 class="mt-3"> Modern lenguages </h4>
+              <p> HTML, CSS, SASS, ReactJS, NodeJS </p>
+            </div>
+            <div class="col-lg-4 text-center">
+              <img src="./images/responsive_website.svg" alt="responsive_website" width="150" height="150">
+              <h4 class="mt-3"> Responsive design </h4>
+              <p> Ready for mobile, tablet or desktop </p>
+            </div>
+            <div class="col-lg-4 text-center">
+              <img src="./images/secure_code.svg" alt="secure_code" width="150" height="150">
+              <h4 class="mt-3"> Security first </h4>
+              <p> SSH and malware protection </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="separator py-4"></div>
+
+      <section class="about-me mt-5">
+        <div class="container">
+          <div class="text-center mb-5">
+            <h2> About me </h2>
+          </div>            
+          <div class="card mb-3">
+            <div class="row g-0 align-items-center">
+              <div class="col-md-4">
+                <img src="./images/woman.png" class="img-fluid rounded-start" alt="..." width="300" height="300">  
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <p class="card-text fs-5">
+                    This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta distinctio ipsam doloremque earum, rem voluptas cupiditate maiores quidem mollitia debitis nulla fugit nemo officia laudantium ab, placeat aliquid sapiente cum?
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <div class="separator py-4"></div>
+
+      <section class="projects mt-5" id="projects">
+        <div class="text-center mb-5">
+          <h2> Projects </h2>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 d-flex justify-content-center">
+              <div class="card" style="width: 80%;">
+                <div class="image-wrapper">
+                  <img src="./images/project-img-example.svg" class="card-img-top" alt="...">
+                </div>                
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 d-flex justify-content-center">
+              <div class="card" style="width: 80%;">
+                <div class="image-wrapper">
+                  <img src="./images/project-img-example.svg" class="card-img-top" alt="...">
+                </div>               
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 d-flex justify-content-center">
+              <div class="card" style="width: 80%;">
+                <div class="image-wrapper">
+                  <img src="./images/project-img-example.svg" class="card-img-top" alt="...">
+                </div>                
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col-lg-4 d-flex justify-content-center">
+              <div class="card" style="width: 80%;">
+                <div class="image-wrapper">
+                  <img src="./images/project-img-example.svg" class="card-img-top" alt="...">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 d-flex justify-content-center">
+              <div class="card" style="width: 80%;">
+                <div class="image-wrapper">
+                  <img src="./images/project-img-example.svg" class="card-img-top" alt="...">
+                </div>                
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 d-flex justify-content-center">
+              <div class="card" style="width: 80%;">
+                <div class="image-wrapper">
+                  <img src="./images/project-img-example.svg" class="card-img-top" alt="...">
+                </div>                
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <div class="separator py-4"></div>
+    <!-- MY FOOTER CONTENT -->
+    <footer class="mt-5">
+      <div class="container">
+        <div class="row py-4">
+          <div class="col fw-light"> &copy Migracode Open Cultural Center <span id="date"></span> </div>
+          <div class="col d-flex justify-content-end"> 
+            <span> <i class="bi bi-linkedin me-2"></i> </span>  
+            <span> <i class="bi bi-github"></i> </span>  
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap 5 script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- custom date script -->
+    <script>
+      n =  new Date();
+      y = n.getFullYear();
+      document.getElementById("date").innerHTML = y;
+
+      var myNav = document.getElementById('navigationBar');
+      window.onscroll = function () { 
+          "use strict";
+          if (document.body.scrollTop >= 100 || document.documentElement.scrollTop >= 100 ) {
+              myNav.classList.add("nav-colored");
+              myNav.classList.remove("nav-transparent");
+          } 
+          else {
+              myNav.classList.add("nav-transparent");
+              myNav.classList.remove("nav-colored");
+          }
+      };
+    </script>
+  </body>
+</html>
