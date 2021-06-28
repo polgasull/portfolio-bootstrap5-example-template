@@ -29,6 +29,12 @@
   background-color: transparent; 
 }
 
+@media (max-width: 768px) {
+  .top-nav-menu {
+    background-color: white;
+  }
+}
+
 .headline {
   position: absolute;
   top: 20%;
